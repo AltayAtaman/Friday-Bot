@@ -1,0 +1,30 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# Personal persona & runtime state
+persona.md
+applications.md
+chat_history.json
+session_state.json
+usage_stats.json
+tasks.json
+seen_jobs.json
+seen_tech.json
+tray.pid
+restart_notify.flag
+*.flag
+*.log
+
+# Captured media
+screenshots/
+voice/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
